@@ -1,0 +1,7 @@
+.feed-title h5{
+    font-size: var(--text-h5);
+    line-height: var(--text-leading-wide);
+    font-weight: var(--text-weight-bold);
+    padding: var(--padding-thin) 0;
+    color: var(--text-title-h) ;
+}
