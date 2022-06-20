@@ -6,9 +6,10 @@
 
 a[target= _blank]{
     background-image: url("../img/icons/amazon.svg");
+    background-size: contain;
     background-repeat: no-repeat;
     background-position: top right;
-    padding-right: 1.25em;
+    padding-right: 1.1em;
     mix-blend-mode: exclusion;
 }
 
