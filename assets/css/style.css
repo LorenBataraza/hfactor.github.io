@@ -5,6 +5,8 @@ layout: Stylesheet
 
 
 :root {
+
+/* Orianals Text Variables */
     --text-xs: clamp(0.70rem, calc(0.79rem + -0.06vw), 0.78rem);
     --text-s: clamp(0.94rem, calc(0.94rem + 0.00vw), 0.94rem);
     --text-m: clamp(1.13rem, calc(1.11rem + 0.09vw), 1.25rem);
@@ -13,6 +15,15 @@ layout: Stylesheet
     --text-xxl: clamp(1.94rem, calc(1.80rem + 0.73vw), 2.96rem);
     --text-jumbo: clamp(2.33rem, calc(2.10rem + 1.15vw), 4rem);
 
+
+/* Header Text Size */
+    --text-h1: 2.2em;
+    --text-h2: 2.0em;
+    --text-h3: 1.8em;
+    --text-h4: 1.6em;
+    --text-h5: 1.4em;
+    --text-h6: 1.2em;
+    
 
     --text-weight-bold: 600;
     --text-weight-normal: 400;
@@ -269,7 +280,7 @@ html[data-theme="dark"] {
 }
 
 h1 {
-    font-size: var(--text-xxl);
+    font-size: var(--text-h1);
     line-height: var(--text-leading-narrow);
     font-weight: var(--text-weight-normal);
     padding: var(--padding-normal) 0;
@@ -277,7 +288,7 @@ h1 {
 }
 
 h2 {
-    font-size: var(--text-xl);
+    font-size: var(--text-h2);
     line-height: var(--text-leading-normal);
     font-weight: var(--text-weight-bold);
     padding: var(--padding-normal) 0;
@@ -285,7 +296,7 @@ h2 {
 }
 
 h3 {
-    font-size: var(--text-xl);
+    font-size: var(--text-h3);
     line-height: var(--text-leading-normal);
     font-weight: var(--text-weight-normal);
     padding: var(--padding-normal) 0;
@@ -293,7 +304,7 @@ h3 {
 }
 
 h4 {
-    font-size: var(--text-l);
+    font-size: var(--text-h4);
     line-height: var(--text-leading-wide);
     font-weight: var(--text-weight-bold);
     padding: var(--padding-thin) 0;
@@ -301,7 +312,7 @@ h4 {
 }
 
 h5 {
-    font-size: var(--text-l);
+    font-size: var(--text-h5);
     line-height: var(--text-leading-wide);
     font-weight: var(--text-weight-normal);
     padding: var(--padding-thin) 0;
@@ -309,7 +320,7 @@ h5 {
 }
 
 h6 {
-    font-size: var(--text-m);
+    font-size: var(--text-h6);
     line-height: var(--text-leading-normal);
     font-weight: var(--text-weight-bold);
     padding: var(--padding-thin) 0;
