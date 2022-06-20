@@ -271,6 +271,7 @@ h1 {
     line-height: var(--text-leading-narrow);
     font-weight: var(--text-weight-normal);
     padding: var(--padding-normal) 0;
+    color: var(--text-title-h1) !important;
 }
 
 h2 {
@@ -286,6 +287,7 @@ h3 {
     line-height: var(--text-leading-normal);
     font-weight: var(--text-weight-normal);
     padding: var(--padding-normal) 0;
+    color: var(--text-title-h3) !important;
 }
 
 h4 {
@@ -293,6 +295,7 @@ h4 {
     line-height: var(--text-leading-wide);
     font-weight: var(--text-weight-bold);
     padding: var(--padding-thin) 0;
+    color: var(--text-title-h4) !important;
 }
 
 h5 {
@@ -300,6 +303,7 @@ h5 {
     line-height: var(--text-leading-wide);
     font-weight: var(--text-weight-normal);
     padding: var(--padding-thin) 0;
+    color: var(--text-title-h5) !important;
 }
 
 h6 {
@@ -307,6 +311,7 @@ h6 {
     line-height: var(--text-leading-normal);
     font-weight: var(--text-weight-bold);
     padding: var(--padding-thin) 0;
+    color: var(--text-title-h6) !important;
 }
 
 p {
@@ -339,9 +344,7 @@ td a,
 th a,
 
 h1 a,
-
 h2 a,
-
 h3 a,
 h4 a,
 h5 a,
