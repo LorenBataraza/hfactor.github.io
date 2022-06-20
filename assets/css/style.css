@@ -1865,9 +1865,10 @@ a[target= _blank]{
     background-size: contain;
     background-repeat: no-repeat;
 
-    background-color: --text-faint;
+    background-color: --color-bg-sub;
     -webkit-mask-image: url("../img/icons/amazon.svg");
     mask-image: url("../img/icons/amazon.svg");
+    mask-repeat: no-repeat;
 
     background-position: top right;
     padding-right: 1.1em;
