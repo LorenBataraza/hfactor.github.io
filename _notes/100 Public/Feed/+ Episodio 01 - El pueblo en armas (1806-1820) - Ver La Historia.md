@@ -19,9 +19,9 @@ guests:: [ [[]] ]
 ---
 
 
-<button class="date_button_today"> Type:: [[+]] </button><button class="date_button_today">Host:: [[Televisión Pública Argentina]] </button>
+<button > Type:: [[+]] </button><button >Host:: [[Televisión Pública Argentina]] </button>
 
-<button class="date_button_today">Reviewed_date:: [ [[2022-05-04]] , ] </button> <button class="date_button_today">Released_date:: [[2015-07-10]]  </button>
+<button >Reviewed_date:: [ [[2022-05-04]] , ] </button> <button >Released_date:: [[2015-07-10]]  </button>
 
 
 <center><iframe width="820" height="420" src="https://www.youtube.com/embed/https://youtu.be/aqEDd6TRi6c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
