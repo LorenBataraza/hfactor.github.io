@@ -18,7 +18,6 @@ keywords:: [ [[]] ]
 guests:: [ [[]] ]
 ---
 
-## + Episodio 04 - La conformación del Estado Nacional (1852-1880) - Ver La Historia
 <button class="date_button_today"> Type:: [[+]] </button><button class="date_button_today">Host:: [[Televisión Pública Argentina]] </button>
 
 <button class="date_button_today">Reviewed_date:: [ [[2022-05-07]] , ] </button> <button class="date_button_today">Released_date:: [[2022-05-07]]  </button>

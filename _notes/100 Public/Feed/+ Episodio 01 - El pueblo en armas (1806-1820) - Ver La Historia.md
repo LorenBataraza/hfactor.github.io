@@ -18,7 +18,7 @@ keywords:: [ [[Historia]], [[Historia Argentina]], [[Independencia]], [[Corona]]
 guests:: [ [[]] ]
 ---
 
-## + Episodio 01 - El pueblo en armas (1806-1820) - Ver La Historia
+
 <button class="date_button_today"> Type:: [[+]] </button><button class="date_button_today">Host:: [[Televisión Pública Argentina]] </button>
 
 <button class="date_button_today">Reviewed_date:: [ [[2022-05-04]] , ] </button> <button class="date_button_today">Released_date:: [[2015-07-10]]  </button>

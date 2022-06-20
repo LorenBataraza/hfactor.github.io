@@ -19,7 +19,6 @@ keywords:: [ [[]] ]
 guests:: [ [[]] ]
 ---
 
-## Episodio 12 - La recuperación de la democracia (1983-1990) - Ver La Historia
 <button class="date_button_today"> Type:: [[+]] </button><button class="date_button_today">Host:: [[Televisión Pública Argentina]] </button>
 
 <button class="date_button_today">Reviewed_date:: [ [[2022-06-08]] , ] </button> <button class="date_button_today">Released_date:: [[2015-09-27]]  </button>
