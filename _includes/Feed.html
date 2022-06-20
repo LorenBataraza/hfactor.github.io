@@ -52,7 +52,7 @@
                     <a href="{{ site.baseurl }}{{note_items.url}}">
                         <h5 class="feed-title">{{ note_items.title }}</h5>
                         <body>
-                            {{ note_items.content | remove: "[[" | remove: "]]" | remove: "-" | truncate: 200 }}
+                            {{ note_items.content | truncate: 200 }}
                         </body>
                     </a>
                 </div>
