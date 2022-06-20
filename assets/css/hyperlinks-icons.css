@@ -9,7 +9,7 @@ a[target= _blank]{
     background-repeat: no-repeat;
     background-position: top right;
     padding-right: 1.25em;
-    background-blend-mode: darken;
+    mix-blend-mode: exclusion;
 }
 
 
