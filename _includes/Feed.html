@@ -51,7 +51,7 @@
                 <div class="notelist-feed">
                     <a href="{{ site.baseurl }}{{note_items.url}}">
                         <h5 class="feed-title" >{{ note_items.title }}</h5>
-                        <body class="excerpt">
+                        <body>
                             {{ note_items.content | remove: "[[" | remove: "]]" | remove: "-" | escape | truncate: 200 }}
                         </body>
                     </a>
