@@ -1,4 +1,9 @@
 ---
+title: Episodio 12 - La recuperación de la democracia (1983-1990) - Ver La Historia
+feed: show
+date: 2022-06-01
+
+
 tag: 📥️/🎥️
 status: 🟥
 moc:: [[]]

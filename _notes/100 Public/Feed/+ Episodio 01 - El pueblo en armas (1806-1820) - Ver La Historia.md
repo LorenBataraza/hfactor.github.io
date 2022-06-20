@@ -1,4 +1,8 @@
 ---
+title: + Episodio 01 - El pueblo en armas (1806-1820) - Ver La Historia
+feed: show
+date: 2022-05-05
+
 tag: 📥️/🎥️
 status: 🟩
 moc:: [[]]

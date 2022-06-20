@@ -1,4 +1,8 @@
 ---
+title: + Episodio 04 - La conformación del Estado Nacional (1852-1880) - Ver La Historia
+feed: show
+date: 2022-05-11
+
 tag: 📥️/🎥️
 status: 🟧
 moc:: [[]]
