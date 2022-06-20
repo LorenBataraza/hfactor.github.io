@@ -51,9 +51,9 @@
                 <div class="notelist-feed">
                     <a href="{{ site.baseurl }}{{note_items.url}}">
                         <h5 class="feed-title">{{ note_items.title }}</h5>
-                        <html><body>
+                        <body>
                             {{ note_items.content | remove: "[[" | remove: "]]" | remove: "-" | truncate: 200 }}
-                        </body></html>
+                        </body>
                     </a>
                 </div>
         {%- endif -%}
