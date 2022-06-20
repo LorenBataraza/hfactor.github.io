@@ -5,3 +5,10 @@
     padding: var(--padding-thin) 0;
     color: var(--text-title-h3) ;
 }
+
+
+.excerpt {
+    color: var(--color-text-main) !important;
+    margin: 0;
+    font-size: var(--text-s) !important;
+}
