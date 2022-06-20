@@ -420,7 +420,7 @@ main {
 .meta-title {
     font-size: var(--text-xs);
     font-weight: var(--text-weight-bold);
-    text-transform: uppercase;
+    text-transform: capitalize;
     color: var(--color-text-sub);
     letter-spacing: 0.2em;
     padding: 0;
