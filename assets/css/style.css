@@ -1776,12 +1776,6 @@ li {
     padding-bottom: var(--padding-thin);
 }
 
-a[href^="http"] {
-    background-image: url(../img/external-link.svg);
-    background-repeat: no-repeat;
-    background-position: right;
-    padding-right: 1.3rem;
-}
 
 .home-sub-text {
     padding-top: 2rem;
@@ -1856,3 +1850,33 @@ input.task-list-item-checkbox:checked
     background-color: var(--task-checkbox);
     box-shadow: inset 0 0 0 2px var(--background-primary);
 }
+
+
+/* a[href^="http"] {
+    background-image: url(../img/external-link.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+    padding-right: 1.3rem;
+} */
+
+
+a[target= _blank]{
+    background-image: url("../img/icons/amazon.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    background-color: --text-faint;
+    -webkit-mask-image: url("../img/icons/amazon.svg");
+    mask-image: url("../img/icons/amazon.svg");
+
+    background-position: top right;
+    padding-right: 1.1em;
+    /* mix-blend-mode: exclusion; */
+}
+
+
+
+/* 
+<image class="change-my-color" xlink:href="https://svgur.com/i/AFM.svg" width="96" height="96" src="ppngfallback.png"
+
+<svg>fill: currentColor </svg> */
