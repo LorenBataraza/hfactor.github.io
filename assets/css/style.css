@@ -619,6 +619,37 @@ table {
     border-radius: 5px;
 }
 
+
+/* table {
+    border: 1px solid var(--background-secondary) !important;
+    border-collapse: collapse;
+}
+  
+th {
+    font-weight: 600 !important;
+    border: 0px !important;
+    text-align: left;
+    background-color: var(--table-header);
+    color: var(--neutral-green);
+}
+
+td {
+    border-left: 0px !important;
+    border-right: 0px !important;
+    border-bottom: 1px solid var(--background-secondary) !important;
+}
+
+tr:nth-child(even){ background-color: var(--table-row-even) }
+tr:nth-child(odd){ background-color: var(--table-row-odd) }
+tr:hover { background-color: var(--table-hover); }
+  
+thead
+{
+    border-bottom: 2px solid var(--background-modifier-border) !important;
+} */
+
+
+
 th,
 td {
     color: var(--color-text-main);
