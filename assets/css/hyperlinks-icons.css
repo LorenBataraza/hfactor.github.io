@@ -16,7 +16,7 @@ a[target= _blank]{
 
 
 a[href^="https://www.youtube"] {
-    background-image: url(../img/icons/youtube.svg);
+    background-image: url("../img/icons/youtube.svg");
     background-repeat: no-repeat;
     background-position: right;
     padding-right: 1.3rem;
