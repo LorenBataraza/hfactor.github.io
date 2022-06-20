@@ -1,4 +1,4 @@
-.feed-title h5{
+.feed-title{
     font-size: var(--text-h5);
     line-height: var(--text-leading-wide);
     font-weight: var(--text-weight-bold);
