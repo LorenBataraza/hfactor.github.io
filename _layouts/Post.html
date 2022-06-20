@@ -32,15 +32,12 @@
 <head>
     <meta content="width=device-width, initial-scale=1" name="viewport" />
     <meta content="Hiran Venugopalan" property="og:site_name" />
-    <meta
-        content="Product and Type Designer | UI UX | Design Mentoring"
-        property="og:description">
+    <meta content="Product and Type Designer | UI UX | Design Mentoring" property="og:description">
     <meta content="{{ site.url }}/about/" property="article:author">
     <meta property="og:image" content="../assets/img/HirOG.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;600&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;600&display=swap" rel="stylesheet">
     {%- if page.title -%}
     <meta content="{{ page.title }}" property="og:title">
     <meta content="article" property="og:type">
@@ -51,12 +48,14 @@
     {%- endif -%}
 
     <title>{{page.title}} - {{site.heading}}</title>
-    <script data-host="https://microanalytics.io" data-dnt="false" src="https://microanalytics.io/js/script.js" id="ZwSg9rf6GA" async defer></script>
+    <script data-host="https://microanalytics.io" data-dnt="false" src="https://microanalytics.io/js/script.js"
+        id="ZwSg9rf6GA" async defer></script>
     <link rel="canonical" href="{{site.url}}{{page.url}}" />
     <link rel="apple-touch-icon" href="{{ site.baseurl }}/assets/img/profile.png">
 
     <!-- Small Icon -->
-    <link rel="icon" href="{{ site.baseurl }}/assets/img/La Verdad Continua - Chiquito.svg" type="image/png" sizes="16x16" />
+    <link rel="icon" href="{{ site.baseurl }}/assets/img/La Verdad Continua - Chiquito.svg" type="image/png"
+        sizes="16x16" />
 
 
     <!-- CSSs -->
@@ -65,7 +64,8 @@
     <link href="{{ site.baseurl }}/assets/css/Util.css" rel="stylesheet" media="all" class="default" />
     <link href="{{ site.baseurl }}/assets/css/vendor/Katex.css" rel="stylesheet" media="all" class="default" />
     <link href="{{ site.baseurl }}/assets/css/S - Embed Adjustments.css" rel="stylesheet" media="all" class="default" />
-    <link href="{{ site.baseurl }}/assets/css/S - Images Adjustments.css" rel="stylesheet" media="all" class="default" />
+    <link href="{{ site.baseurl }}/assets/css/S - Images Adjustments.css" rel="stylesheet" media="all"
+        class="default" />
 
 
     <!--[if IE]>
@@ -77,99 +77,113 @@
 
 <body>
     <main>
-    {%- include Nav.html -%}
-    <section class="section">
-        <div class="columns is-centered">
+        {%- include Nav.html -%}
+        <section class="section">
+            <div class="columns is-centered">
 
-            <!-- Homepage Layout-->
-            {%- if page.permalink == "/" -%}
-            <div class="column is-8-widescreen  is-8-desktop is-8-tablet is-12-mobile">
+                <!-- Homepage Layout-->
+                {%- if page.permalink == "/" -%}
+                <div class="column is-8-widescreen  is-8-desktop is-8-tablet is-12-mobile">
                     {%- if site.preferences.homepage.enabled -%}
-                            <!--- Show Homepage -->
-                            {%- include Homepage.html -%}
+                    <!--- Show Homepage -->
+                    {%- include Homepage.html -%}
                     {%- else -%}
-                            <!--- Show Feed Part -->
-                <div class="column is-6-widescreen  is-8-desktop is-8-tablet is-12-mobile">
-                            <h5 class="meta-title"><a href="/">← Home</a></h5>
-                            <div class="jumbo">{{page.title}}</div>
-                            {%- include FeedContent.html -%}
-                            {%- include Feed.html -%}
-                </div>
+                    <!--- Show Feed Part -->
+                    <div class="column is-6-widescreen  is-8-desktop is-8-tablet is-12-mobile">
+                        <h5 class="meta-title"><a href="/">← Home</a></h5>
+                        <div class="jumbo">{{page.title}}</div>
+                        {%- include FeedContent.html -%}
+                        {%- include Feed.html -%}
+                    </div>
                     {%- endif -%}
-            </div>
-            {%- endif -%}
+                </div>
+                {%- endif -%}
 
-            <!--- Feedpage Layout-->
-            {%- if page.feedformat -%}
-            <div class="column is-6-widescreen  is-8-desktop is-8-tablet is-12-mobile">
-                <h5 class="meta-title"><a href="/">← Home</a></h5>
+                <!--- Feedpage Layout-->
+                {%- if page.feedformat -%}
+                <div class="column is-6-widescreen  is-8-desktop is-8-tablet is-12-mobile">
+                    <h5 class="meta-title"><a href="/">← Home</a></h5>
                     <div class="jumbo">{{page.title}}</div>
                     {%- include Content.html -%}
                     {%- include Feed.html -%}
-            {%- endif -%}
-
-            <!--- Notes Layout-->
-            {%- if page.content-type == "notes" -%}
-            <div class="column is-5-widescreen  is-6-desktop is-8-tablet is-12-mobile">
-                    <div class="note-page-section">
-                        <div>
-                            {%- if site.preferences.homepage.enabled -%}
-                            <a onclick="window.history.back();">
-                            {%- else -%}
-                            <a onclick="window.location.assign('/');">
-                            {%- endif -%}
-                                    <h5 class="meta-title">← BACK</h5>
-                            </a>
-                        </div>
-                    <!--- List type Note Layout-->
-                    {%- if page.format == "list" -%}
-                    <style>
-                        li {border-bottom: 1px solid var(--color-border-light); list-style: none; padding: 0.4rem 0 0.4rem 0;}
-                        .content ul { padding-left: 0px;}
-                        h3 {padding-top: 1rem; padding-bottom: 0rem;}
-                    </style>                    
                     {%- endif -%}
-                    <h1>{{page.title}}</h1>
-                    {%- include Content.html -%}
-                    {%- include Backlinks.html -%}
+
+                    <!--- Notes Layout-->
+                    {%- if page.content-type == "notes" -%}
+                    <div class="column is-5-widescreen  is-6-desktop is-8-tablet is-12-mobile">
+                        <div class="note-page-section">
+                            <div>
+                                <h5 class="meta-title">
+                                    {%- if site.preferences.homepage.enabled -%}
+                                    <a onclick="window.history.back();">
+                                        {%- else -%}
+                                        <a onclick="window.location.assign('/');">
+                                            {%- endif -%}
+                                            ← BACK
+                                        </a>
+                                </h5>
+                            </div>
+                            <!--- List type Note Layout-->
+                            {%- if page.format == "list" -%}
+                            <style>
+                                li {
+                                    border-bottom: 1px solid var(--color-border-light);
+                                    list-style: none;
+                                    padding: 0.4rem 0 0.4rem 0;
+                                }
+
+                                .content ul {
+                                    padding-left: 0px;
+                                }
+
+                                h3 {
+                                    padding-top: 1rem;
+                                    padding-bottom: 0rem;
+                                }
+                            </style>
+                            {%- endif -%}
+                            <h1>{{page.title}}</h1>
+                            {%- include Content.html -%}
+                            {%- include Backlinks.html -%}
+                        </div>
                     </div>
-            </div>
-            {%- endif -%}
+                    {%- endif -%}
 
-             <!--- Post Layout-->
-             {%- if page.content-type == "post"  -%}
-             <div class="column is-5-widescreen  is-6-desktop is-8-tablet is-12-mobile">
-                     <div class="note-page-section">
-                         <div>
-                             {%- if site.preferences.homepage.enabled -%}
-                             <a onclick="window.history.back();">
-                             {%- else -%}
-                             <a onclick="window.location.assign('/');">
-                             {%- endif -%}
-                                     <h5 class="meta-title">← BACK</h5>
-                             </a>
-                         </div>
-                     <h5 class="meta-title"> {{ page.date | date:"%B %Y" }}</h5>
-                     <h1>{{page.title}}</h1>
-                     {% if page.image %}
-                         <img style="padding-bottom: 2em;" src="{{page.image}}">
-                     {% endif %}
-                     {%- include Content.html -%}
-                     {%- include Backlinks.html -%}
-                     </div>
-             </div>
-             {%- endif -%}
+                    <!--- Post Layout-->
+                    {%- if page.content-type == "post" -%}
+                    <div class="column is-5-widescreen  is-6-desktop is-8-tablet is-12-mobile">
+                        <div class="note-page-section">
+                            <div>
+                                {%- if site.preferences.homepage.enabled -%}
+                                <a onclick="window.history.back();">
+                                    {%- else -%}
+                                    <a onclick="window.location.assign('/');">
+                                        {%- endif -%}
+                                        <h5 class="meta-title">← BACK</h5>
+                                    </a>
+                            </div>
+                            <h5 class="meta-title"> {{ page.date | date:"%B %Y" }}</h5>
+                            <h1>{{page.title}}</h1>
+                            {% if page.image %}
+                            <img style="padding-bottom: 2em;" src="{{page.image}}">
+                            {% endif %}
+                            {%- include Content.html -%}
+                            {%- include Backlinks.html -%}
+                        </div>
+                    </div>
+                    {%- endif -%}
 
-            <!--- Static Page Layout-->
-            {%- if page.content-type == "static" -%}
-            <div class="column is-5-widescreen  is-6-desktop is-8-tablet is-12-mobile">
-                        <div class="jumbo">{{page.title}}</div>                        
+                    <!--- Static Page Layout-->
+                    {%- if page.content-type == "static" -%}
+                    <div class="column is-5-widescreen  is-6-desktop is-8-tablet is-12-mobile">
+                        <div class="jumbo">{{page.title}}</div>
                         {%- include Content.html -%}
+                    </div>
+                    {%- endif -%}
                 </div>
-            {%- endif -%}
-        </div>
-    </section>   
-    {%- include Footer.html -%}             
-</main>
+        </section>
+        {%- include Footer.html -%}
+    </main>
 </body>
+
 </html>
