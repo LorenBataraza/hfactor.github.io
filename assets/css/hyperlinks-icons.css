@@ -8,6 +8,15 @@ a[target= _blank]{
     background-image: url("../img/icons/amazon.svg");
     background-repeat: no-repeat;
     background-position: top right;
-    padding-right: 1.5em;
+    padding-right: 1.25em;
+    background-blend-mode: darken;
 }
 
+
+
+a[href^="https://www.youtube"] {
+    background-image: url(../img/icons/youtube.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+    padding-right: 1.3rem;
+}
