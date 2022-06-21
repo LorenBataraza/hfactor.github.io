@@ -20,8 +20,8 @@ a[target= _blank]{
     mask-position: right;
     -webkit-mask-position: right;
 
-    -webkit-mask-mode: revert;
-    mask-mode: revert;
+    -webkit-mask-mode: alpha, revert;
+    mask-mode: alpha, revert;
     /* padding-right: 1.1em; */
 
 }
