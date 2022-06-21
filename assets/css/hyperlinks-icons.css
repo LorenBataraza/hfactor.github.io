@@ -4,31 +4,28 @@
 }
 
 
-a[target= _blank]{
-    /* background-image: url("../img/icons/amazon.svg");
-    background-position: top right;    
-    background-repeat: no-repeat; */
+/* a[target= _blank]{
+
     background-color: var(--color-text-sub);  
 
-    /* mix-blend-mode: exclusion; 
-    background-size: contain;*/
-    
     -webkit-mask-image: url("../img/icons/amazon.svg");
     mask-image: url("../img/icons/amazon.svg");
     mask-repeat: no-repeat;
     -webkit-mask-repeat: no-repeat;
-
     mask-position: right;
     -webkit-mask-position: right;
 
-    -webkit-mask-mode: revert;
-    mask-mode: revert;
+    -webkit-mask-type: revert;
+    mask-type: revert;
+    mask-mode: luminance;
 
+} */
+
+
+    /* background-image: url("../img/icons/amazon.svg");
+    background-position: top right;    
+    background-repeat: no-repeat; */    
     /* padding-right: 1.1em; */
-
-}
-    
-
 
 /* a[href^="https://www.youtube"] {
     background-image: url("../img/icons/youtube.svg");
@@ -50,3 +47,31 @@ svg{
 }
 
 src = "happy.svg" */
+
+
+
+/* a[href^="http"] {
+    background-image: url(../img/external-link.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+    padding-right: 1.3rem;
+} */
+
+
+a[target= _blank]{
+    background-image: url("../img/icons/amazon.svg");
+    background-position: top right;    
+    background-repeat: no-repeat;
+    background-color: --color-text-sub;    
+    /*  background-size: contain;*/
+    mix-blend-mode: hard-light;
+    -webkit-mask-image: url("../img/icons/amazon.svg");
+    mask-image: url("../img/icons/amazon.svg");
+    mask-repeat: no-repeat;
+
+    -webkit-mask-repeat: no-repeat;
+    mask-position: right;
+
+    /* padding-right: 1.1em; */
+
+}
