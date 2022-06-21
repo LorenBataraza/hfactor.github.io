@@ -5,10 +5,11 @@
 
 
 a[target= _blank]{
-    background-image: url("../img/icons/amazon.svg");
+    /* background-image: url("../img/icons/amazon.svg");
     background-position: top right;    
-    background-repeat: no-repeat;
-    background-color: var(--color-text-sub);    
+    background-repeat: no-repeat; */
+    background-color: var(--color-text-sub);  
+
     /* mix-blend-mode: exclusion; 
     background-size: contain;*/
     
@@ -20,21 +21,21 @@ a[target= _blank]{
     mask-position: right;
     -webkit-mask-position: right;
 
-    -webkit-mask-mode: alpha, revert;
-    mask-mode: alpha, revert;
+    -webkit-mask-mode: revert;
+    mask-mode: revert;
+
     /* padding-right: 1.1em; */
 
 }
+    
 
 
-
-
-a[href^="https://www.youtube"] {
+/* a[href^="https://www.youtube"] {
     background-image: url("../img/icons/youtube.svg");
     background-repeat: no-repeat;
     background-position: right;
     padding-right: 1.3rem;
-}
+} */
 
 
 /* body {
