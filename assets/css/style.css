@@ -1862,17 +1862,21 @@ input.task-list-item-checkbox:checked
 
 a[target= _blank]{
     background-image: url("../img/icons/amazon.svg");
-    background-size: contain;
-    background-repeat: no-repeat;
+    background-position: top right;    
+    background-repeat: no-repeat;    
+    /* mix-blend-mode: exclusion; 
+    background-size: contain;*/
 
     background-color: --color-text-sub;
     -webkit-mask-image: url("../img/icons/amazon.svg");
     mask-image: url("../img/icons/amazon.svg");
+
+
     mask-repeat: no-repeat;
 
-    background-position: top right;
+
     padding-right: 1.1em;
-    /* mix-blend-mode: exclusion; */
+
 }
 
 
