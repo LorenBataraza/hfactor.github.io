@@ -1871,9 +1871,11 @@ a[target= _blank]{
     -webkit-mask-image: url("../img/icons/amazon.svg");
     mask-image: url("../img/icons/amazon.svg");
     mask-repeat: no-repeat;
+
     -webkit-mask-repeat: no-repeat;
-    
-    padding-right: 1.1em;
+    mask-position: right;
+
+    /* padding-right: 1.1em; */
 
 }
 
