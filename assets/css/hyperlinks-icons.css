@@ -6,12 +6,24 @@
 
 a[target= _blank]{
     background-image: url("../img/icons/amazon.svg");
-    background-size: contain;
+    background-position: top right;    
     background-repeat: no-repeat;
-    background-position: top right;
-    padding-right: 1.1em;
-    /* mix-blend-mode: exclusion; */
+    background-color: --color-text-sub;    
+    /* mix-blend-mode: exclusion; 
+    background-size: contain;*/
+    
+    -webkit-mask-image: url("../img/icons/amazon.svg");
+    mask-image: url("../img/icons/amazon.svg");
+    mask-repeat: no-repeat;
+
+    -webkit-mask-repeat: no-repeat;
+    mask-position: right;
+
+    /* padding-right: 1.1em; */
+
 }
+
+
 
 
 a[href^="https://www.youtube"] {
