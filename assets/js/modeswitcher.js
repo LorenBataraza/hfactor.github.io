@@ -11,11 +11,12 @@ let theme = sessionStorage.getItem('theme');
 const iconSun = "{{ site.baseurl }}/assets/img/sun.svg";
 const iconMoon = "{{ site.baseurl }}/assets/img/moon.svg";
 
-
+/* 
 function changeIconImgSrc(src) {
 	document.getElementById("theme-toggle-img").src = src;
 	document.getElementById("theme-toggle-img--mobile").src = src;
 }
+*/
 
 if (systemInitiatedDark.matches) {
 	changeIconImgSrc(iconMoon);
