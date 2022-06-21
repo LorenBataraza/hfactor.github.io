@@ -1863,18 +1863,16 @@ input.task-list-item-checkbox:checked
 a[target= _blank]{
     background-image: url("../img/icons/amazon.svg");
     background-position: top right;    
-    background-repeat: no-repeat;    
+    background-repeat: no-repeat;
+    background-color: --color-text-sub;    
     /* mix-blend-mode: exclusion; 
     background-size: contain;*/
-
-    background-color: --color-text-sub;
+    
     -webkit-mask-image: url("../img/icons/amazon.svg");
     mask-image: url("../img/icons/amazon.svg");
-
-
     mask-repeat: no-repeat;
-
-
+    -webkit-mask-repeat: no-repeat;
+    
     padding-right: 1.1em;
 
 }
