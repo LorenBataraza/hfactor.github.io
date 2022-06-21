@@ -15,10 +15,13 @@ a[target= _blank]{
     -webkit-mask-image: url("../img/icons/amazon.svg");
     mask-image: url("../img/icons/amazon.svg");
     mask-repeat: no-repeat;
-
     -webkit-mask-repeat: no-repeat;
-    mask-position: right;
 
+    mask-position: right;
+    -webkit-mask-position: right;
+    
+    -webkit-mask-mode: revert;
+    mask-mode: revert;
     /* padding-right: 1.1em; */
 
 }
