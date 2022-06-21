@@ -1865,7 +1865,7 @@ a[target= _blank]{
     background-size: contain;
     background-repeat: no-repeat;
 
-    background-color: --color-bg-sub;
+    background-color: --color-text-sub;
     -webkit-mask-image: url("../img/icons/amazon.svg");
     mask-image: url("../img/icons/amazon.svg");
     mask-repeat: no-repeat;
