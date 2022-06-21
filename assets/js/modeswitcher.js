@@ -1,5 +1,3 @@
----
----
 
 /* 
 Copied from https://github.com/derekkedziora/jekyll-demo/blob/master/scripts/mode-switcher.js
