@@ -35,9 +35,9 @@
 } */
 
 
-a[target= _blank]{
+/* a[target= _blank]{
     background-color: --color-text-sub;   
-    /*  background-size: contain;*/
+    
     mix-blend-mode: hard-light;
 
     -webkit-mask-image: url("../img/icons/amazon.svg");
@@ -49,12 +49,41 @@ a[target= _blank]{
 
     mask-position: right;
 
-    /* padding-right: 1.1em; */
 
-}
+} */
+
+    /* padding-right: 1.1em; */
+    /*  background-size: contain;*/
 
 
 /* background-image: url("../img/icons/amazon.svg");
 
 background-position: top right;    
 background-repeat: no-repeat; */
+
+
+
+
+
+
+
+
+/* data-link-icon-type='svg' */
+
+a[target= _blank]::after {
+    --link-icon-size: 0.5em;
+    --link-icon-offset-x: 0.20em;
+    --link-icon-offset-y: 0.25em;
+    --link-icon-url: "../img/icons/amazon.svg";
+
+    content: "";
+    position: static;
+    padding: 0 var(--link-icon-size) 0 0;
+    margin: 0 0 0 var(--link-icon-offset-x);
+    background-image: var(--link-icon-url);
+    background-size: var(--link-icon-size);
+    background-position-x: center;
+    background-position-y: var(--link-icon-offset-y);
+    background-repeat: no-repeat;
+    opacity: 0.45;
+}
