@@ -40,7 +40,7 @@ function prefersColorTest(systemInitiatedDark) {
 
 
 systemInitiatedDark.addEventListener("change", () => {
-    this.prefersColorTest();
+    prefersColorTest;
 });
 
 
