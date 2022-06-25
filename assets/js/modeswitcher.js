@@ -36,7 +36,13 @@ function prefersColorTest(systemInitiatedDark) {
 	}
 }
 
-systemInitiatedDark.addListener(prefersColorTest);
+// systemInitiatedDark.addListener(prefersColorTest);
+
+
+systemInitiatedDark.addEventListener("change", () => {
+    this.prefersColorTest();
+});
+
 
 function modeSwitcher() {
 	let theme = sessionStorage.getItem('theme');
