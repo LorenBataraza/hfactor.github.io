@@ -81,6 +81,7 @@ a[href="https://kaleyra.com/"]::after {
     padding: 0 var(--link-icon-size) 0 0;
     margin: 0 0 0 var(--link-icon-offset-x);
     background-image: var(--link-icon-url);
+    background-color: aquamarine ;
     background-size: var(--link-icon-size);
     background-position-x: center;
     background-position-y: var(--link-icon-offset-y);
