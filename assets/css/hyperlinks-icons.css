@@ -81,10 +81,46 @@ a[href="https://kaleyra.com/"]::after {
     padding: 0 var(--link-icon-size) 0 0;
     margin: 0 0 0 var(--link-icon-offset-x);
     background-image: var(--link-icon-url);
-    background-color: aquamarine ;
     background-size: var(--link-icon-size);
     background-position-x: center;
     background-position-y: var(--link-icon-offset-y);
     background-repeat: no-repeat;
     opacity: 0.45;
+}
+
+
+
+a[href^="https://"] {
+    --link-icon-size: 0.5em;
+    --link-icon-offset-x: 0.20em;
+    --link-icon-offset-y: 0.25em;
+    --link-icon-url: url("https://www.gwern.net/static/img/icons/wikipedia.svg");
+    --image-opacity: 0.45;
+
+    content: "";
+    position: static;
+    padding: 0 var(--link-icon-size) 0 0;
+    margin: 0 0 0 var(--link-icon-offset-x);
+    background-image: var(--link-icon-url);
+    background-size: var(--link-icon-size);
+    background-position-x: center;
+    background-position-y: var(--link-icon-offset-y);
+    background-repeat: no-repeat;
+    opacity: var(--image-opacity);
+}
+
+
+a[href^="https://www.youtube"] {
+    --link-icon-url: url("{{ site.baseurl }}/assets/img/icons/youtube.svg");    
+    --link-icon-size: 0.5em;
+    --link-icon-offset-x: 0.20em;
+    --link-icon-offset-y: 0.25em;
+
+    padding: 0 var(--link-icon-size) 0 0;
+
+    margin: 0 0 0 var(--link-icon-offset-x);
+    background-image: var(--link-icon-url);
+    background-size: var(--link-icon-size);
+    background-position-y: var(--link-icon-offset-y);
+
 }
