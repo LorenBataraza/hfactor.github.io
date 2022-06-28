@@ -1,0 +1,242 @@
+/* Print CSS */
+@media print {
+    .site-header, .site-footer, .shared-counts-sticky-wrap, .entry-meta, .pagination {
+        display: none !important;
+    }
+
+    .content-sidebar-wrap {
+        padding: 2% 7%;
+    }
+
+    .wp-block-group.alignfull {
+        width: 100% !important;
+        max-width: none !important;
+        --content-max-width: none;
+    }
+
+    :root {
+        --body-font-size: 1rem;
+        --h1-font-size: 1.5rem;
+        --h2-font-size: 1.25rem;
+        --h3-font-size: 1.2rem;
+        --h4-font-size: 1.12rem;
+        --h5-font-size: 1.0625rem;
+        --h6-font-size: 1.0625rem;
+    }
+
+    p {
+        --font-size-lg: 1rem;
+        --font-size-md: 0.8rem;
+        --font-size-sm: 0.7rem;
+        --font-size-xs: 0.5rem;
+    }
+}
+
+p {
+    --font-size-lg: 1.25rem;
+    /* 20px */
+    --font-size-md: 1.0625rem;
+    /* 17px */
+    --font-size-sm: 0.9375rem;
+    /* 15px */
+    --font-size-xs: 0.75rem;
+    /* 12px */
+}
+
+p.has-xs-font-size, p.has-sm-font-size {
+    line-height: 150%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    --link-color: var(--color-heading);
+    --link-color-hover: var(--color-primary);
+    --link-text-decoration: none;
+    --link-text-decoration-hover: none;
+    --font-size-xxxxl: 2.25rem;
+    /* 36px */
+    --font-size-xxxl: 2rem;
+    /* 32px */
+    --font-size-xxl: 1.5rem;
+    /* 24px */
+    --font-size-xl: 1.375rem;
+    /* 22px */
+    --font-size-lg: 1.125rem;
+    /* 18px */
+    --font-size-md: 1.0625rem;
+    /* 17px */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Shared Counts */
+.shared-counts-wrap.style-sticky {
+    display: flex;
+}
+
+@media only screen and (min-width: 1200px) {
+    .content {
+        position: relative;
+    }
+
+    .no-sidebar .shared-counts-sticky-wrap {
+        position: absolute;
+        top: 0;
+        right: calc(100% + (var(--side-spacing) * 2));
+        width: 32px;
+        height: 100%;
+    }
+
+    .shared-counts-wrap.style-sticky {
+        flex-direction: column;
+    }
+}
+
+.shared-counts-wrap.style-sticky .shared-counts-button {
+    display: flex;
+    width: 32px;
+    height: 32px;
+    margin: 0 var(--spacing-xs) var(--spacing-xs) 0;
+    padding: 6px;
+    color: var(--color-body);
+    background: var(--color-white);
+    border: 1px solid var(--shared-counts-icon-border-color, #e7e7e7);
+    border-radius: 999px;
+}
+
+.shared-counts-wrap.style-sticky .shared-counts-button:hover, .shared-counts-wrap.style-sticky .shared-counts-button:focus {
+    --shared-counts-icon-border-color: var(--color-body);
+}
+
+.shared-counts-wrap.style-sticky .shared-counts-icon-label, .shared-counts-wrap.style-sticky .shared-counts-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.shared-counts-wrap.style-sticky .shared-counts-icon svg {
+    width: 14px;
+    height: 14px;
+}
+
+.shared-counts-wrap.style-sticky .shared-counts-label, .shared-counts-wrap.style-sticky .shared-counts-count {
+    position: absolute !important;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    color: var(--color-black);
+    background: var(--color-white);
+    border: 0;
+    clip: rect(0, 0, 0, 0);
+}
+
+/* Mai Table of Contents */
+.mai-toc-minimal .mai-toc__showhide > .mai-toc__summary {
+    font-weight: var(--heading-font-weight);
+    font-size: var(--font-size-lg);
+    font-family: var(--heading-font-family);
+    text-transform: none;
+}
+
+.mai-toc-minimal .mai-toc--parent > .mai-toc__listitem > .mai-toc__link {
+    position: relative;
+    padding-left: var(--spacing-lg);
+}
+
+.mai-toc-minimal .mai-toc--parent > .mai-toc__listitem > .mai-toc__link::before {
+    position: absolute;
+    top: 20px;
+    left: 0;
+    display: block;
+    width: var(--font-size-xs);
+    height: var(--font-size-xs);
+    background: currentColor;
+    -webkit-mask-image: url( 'data:image/svg+xml;charset=UTF-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512"><!-- Font Awesome Pro 5.15.3 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) --><path d="M17.525 36.465l-7.071 7.07c-4.686 4.686-4.686 12.284 0 16.971L205.947 256 10.454 451.494c-4.686 4.686-4.686 12.284 0 16.971l7.071 7.07c4.686 4.686 12.284 4.686 16.97 0l211.051-211.05c4.686-4.686 4.686-12.284 0-16.971L34.495 36.465c-4.686-4.687-12.284-4.687-16.97 0z"/></svg>' );
+    mask-image: url( 'data:image/svg+xml;charset=UTF-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512"><!-- Font Awesome Pro 5.15.3 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) --><path d="M17.525 36.465l-7.071 7.07c-4.686 4.686-4.686 12.284 0 16.971L205.947 256 10.454 451.494c-4.686 4.686-4.686 12.284 0 16.971l7.071 7.07c4.686 4.686 12.284 4.686 16.97 0l211.051-211.05c4.686-4.686 4.686-12.284 0-16.971L34.495 36.465c-4.686-4.687-12.284-4.687-16.97 0z"/></svg>' );
+    -webkit-mask-position: center;
+    mask-position: center;
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    -webkit-mask-size: contain;
+    mask-size: contain;
+    content: "";
+}
+
+@media only screen and (max-width: 799px) {
+    .mai-toc-minimal {
+        border-bottom: var(--border);
+    }
+}
+
+
+/* Share */
+.fs-inline-shared-counts {
+    text-align: center;
+}
+
+.fs-inline-shared-counts hr {
+    margin-top: 10px;
+}
+
+.fs-inline-shared-counts p {
+    display: inline;
+    margin-right: 16px;
+    font-size: var(--font-size-sm);
+}
+
+.shared-counts-wrap.shortcode {
+    display: inline-flex;
+}
+
+.shared-counts-wrap.shortcode .shared-counts-button {
+    display: flex;
+    width: 32px;
+    height: 32px;
+    margin: 0 var(--spacing-xs) var(--spacing-xs) 0;
+    padding: 6px;
+    color: var(--color-body);
+    background: #F4F4F4;
+    border-radius: 999px;
+    border: 1px solid #fff;
+}
+
+.shared-counts-wrap.shortcode .shared-counts-button:hover, .shared-counts-wrap.shortcode .shared-counts-button:focus {
+    background: #fff;
+    border: 1px solid #ddd;
+}
+
+.shared-counts-wrap.shortcode .shared-counts-icon-label, .shared-counts-wrap.shortcode .shared-counts-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.shared-counts-wrap.shortcode .shared-counts-icon svg {
+    width: 14px;
+    height: 14px;
+}
+
+.shared-counts-wrap.shortcode .shared-counts-label, .shared-counts-wrap.shortcode .shared-counts-count {
+    position: absolute !important;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    color: var(--color-black);
+    background: var(--color-white);
+    border: 0;
+    clip: rect(0, 0, 0, 0);
+}
