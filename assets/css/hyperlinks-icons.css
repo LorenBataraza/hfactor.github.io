@@ -94,7 +94,7 @@ a[href^="https://"]::after {
     --link-icon-size: 0.5em;
     --link-icon-offset-x: 0.20em;
     --link-icon-offset-y: 0.25em;
-    --link-icon-url: url("{{ site.baseurl }}/assets/img/icons/external-link.svg");
+    --link-icon-url: url("../../assets/img/icons/external-link.svg");
     --image-opacity: 0.45;
 
 
@@ -113,7 +113,7 @@ a[href^="https://"]::after {
 
 /* Amazon */
 a[href^="https://www.amazon"]::after {
-    --link-icon-url: url("{{ site.baseurl }}/assets/img/icons/Reddit.svg") !important;    
+    --link-icon-url: url("../../assets/img/icons/Reddit.svg") !important;    
     --link-icon-size: 0.5em !important;
     --link-icon-offset-x: 0.20em !important;
     --link-icon-offset-y: 0.25em !important;
@@ -121,7 +121,7 @@ a[href^="https://www.amazon"]::after {
 
 /* Apple */
 a[href^="https://www.apple"]::after {
-    --link-icon-url: url("{{ site.baseurl }}/assets/img/icons/Reddit.svg") !important;    
+    --link-icon-url: url("../../assets/img/icons/Reddit.svg") !important;    
     --link-icon-size: 0.5em !important;
     --link-icon-offset-x: 0.20em !important;
     --link-icon-offset-y: 0.25em !important;
@@ -130,7 +130,7 @@ a[href^="https://www.apple"]::after {
 
 /* GitHub */
 a[href^="https://www.github"]::after {
-    --link-icon-url: url("{{ site.baseurl }}/assets/img/icons/GitHub.svg") !important;    
+    --link-icon-url: url("../../assets/img/icons/GitHub.svg") !important;    
     --link-icon-size: 0.5em !important;
     --link-icon-offset-x: 0.20em !important;
     --link-icon-offset-y: 0.25em !important;
@@ -138,7 +138,7 @@ a[href^="https://www.github"]::after {
 
 /* Facebook */
 a[href^="https://www.facebook"]::after {
-    --link-icon-url: url("{{ site.baseurl }}/assets/img/icons/Facebook.svg") !important;    
+    --link-icon-url: url("../../assets/img/icons/Facebook.svg") !important;    
     --link-icon-size: 0.5em !important;
     --link-icon-offset-x: 0.20em !important;
     --link-icon-offset-y: 0.25em !important;
@@ -146,7 +146,7 @@ a[href^="https://www.facebook"]::after {
 
 /* Mega */
 a[href^="https://www.mega"]::after {
-    --link-icon-url: url("{{ site.baseurl }}/assets/img/icons/Mega.svg") !important;    
+    --link-icon-url: url("../../assets/img/icons/Mega.svg") !important;    
     --link-icon-size: 0.5em !important;
     --link-icon-offset-x: 0.20em !important;
     --link-icon-offset-y: 0.25em !important;
@@ -154,7 +154,7 @@ a[href^="https://www.mega"]::after {
 
 /* Dropbox */
 a[href^="https://www.dropbox"]::after {
-    --link-icon-url: url("{{ site.baseurl }}/assets/img/icons/Dropbox.svg") !important;    
+    --link-icon-url: url("../../assets/img/icons/Dropbox.svg") !important;    
     --link-icon-size: 0.5em !important;
     --link-icon-offset-x: 0.20em !important;
     --link-icon-offset-y: 0.25em !important;
@@ -162,7 +162,7 @@ a[href^="https://www.dropbox"]::after {
 
 /* OpenAI */
 a[href^="https://www.openai"]::after {
-    --link-icon-url: url("{{ site.baseurl }}/assets/img/icons/OpenAI.svg") !important;    
+    --link-icon-url: url("../../assets/img/icons/OpenAI.svg") !important;    
     --link-icon-size: 0.5em !important;
     --link-icon-offset-x: 0.20em !important;
     --link-icon-offset-y: 0.25em !important;
@@ -170,7 +170,7 @@ a[href^="https://www.openai"]::after {
 
 /* Youtube */
 a[href^="https://www.youtube"]::after {
-    --link-icon-url: url("{{ site.baseurl }}/assets/img/icons/youtube.svg") !important;    
+    --link-icon-url: url("../../assets/img/icons/youtube.svg") !important;    
     --link-icon-size: 0.5em !important;
     --link-icon-offset-x: 0.20em !important;
     --link-icon-offset-y: 0.25em !important;
@@ -178,7 +178,7 @@ a[href^="https://www.youtube"]::after {
 
 /* Wikipedia */
 a[href^="https://www.wikipedia"]::after {
-    --link-icon-url: url("{{ site.baseurl }}/assets/img/icons/wikipedia.svg") !important;    
+    --link-icon-url: url("../../assets/img/icons/wikipedia.svg") !important;    
     --link-icon-size: 0.5em !important;
     --link-icon-offset-x: 0.20em !important;
     --link-icon-offset-y: 0.25em !important;
@@ -186,7 +186,7 @@ a[href^="https://www.wikipedia"]::after {
 
 /* Substack */
 a[href$="@gmail.com"]::after {
-    --link-icon-url: url("{{ site.baseurl }}/assets/img/icons/mail.svg") !important;    
+    --link-icon-url: url("../../assets/img/icons/mail.svg") !important;    
     --link-icon-size: 0.5em !important;
     --link-icon-offset-x: 0.20em !important;
     --link-icon-offset-y: 0.25em !important;
@@ -194,7 +194,7 @@ a[href$="@gmail.com"]::after {
 
 /* Reddit */
 a[href^="https://www.reddit"]::after {
-    --link-icon-url: url("{{ site.baseurl }}/assets/img/icons/Reddit.svg") !important;    
+    --link-icon-url: url("../../assets/img/icons/Reddit.svg") !important;    
     --link-icon-size: 0.5em !important;
     --link-icon-offset-x: 0.20em !important;
     --link-icon-offset-y: 0.25em !important;
