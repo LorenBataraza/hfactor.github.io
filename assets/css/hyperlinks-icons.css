@@ -70,7 +70,7 @@ background-repeat: no-repeat; */
 
 /* data-link-icon-type='svg' */
 
-a[href="https://kaleyra.com/"]::after {
+/* a[href="https://kaleyra.com/"]::after {
     --link-icon-size: 0.5em;
     --link-icon-offset-x: 0.20em;
     --link-icon-offset-y: 0.25em;
@@ -86,7 +86,7 @@ a[href="https://kaleyra.com/"]::after {
     background-position-y: var(--link-icon-offset-y);
     background-repeat: no-repeat;
     opacity: 0.45;
-}
+} */
 
 
 
@@ -96,6 +96,7 @@ a[href^="https://"] {
     --link-icon-offset-y: 0.25em;
     --link-icon-url: url("https://www.gwern.net/static/img/icons/wikipedia.svg");
     --image-opacity: 0.45;
+
 
     content: "";
     position: static;
@@ -107,6 +108,7 @@ a[href^="https://"] {
     background-position-y: var(--link-icon-offset-y);
     background-repeat: no-repeat;
     opacity: var(--image-opacity);
+    
 }
 
 
