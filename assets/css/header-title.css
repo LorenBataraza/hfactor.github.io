@@ -1,0 +1,31 @@
+.header-title {
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+    box-sizing: border-box;
+    height: 50px;
+    line-height: 50px;
+    padding-left: 15px;
+    text-shadow: 2px 2px 3px #000000;
+  }
+  
+  .header-offline {
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+    box-sizing: border-box;
+    height: 50px;
+    line-height: 50px;
+    padding-right: 15px;
+    text-shadow: 2px 2px 3px #000000;
+  }
+  
+  .mobile-header-title {
+    display: none;
+  }
+  
+  .header-spacer {
+    -webkit-flex-grow: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1
+  }
